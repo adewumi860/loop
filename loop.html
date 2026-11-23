@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black;border-radius: 20px;">
+    <h1 style="color: red;">ODD AND <span style="color: green;">EVEN NUMBERS</span></h1>
+    <p id="demo"></p>
+    <script>
+        let a = document.getElementById('demo')
+        for(let i=1;i<=100;i++){
+            if(i%2!=0){
+                document.write("<p style='color:red;' >"+i+ "    is an odd number"+"</p> ")
+                
+                
+            }
+            if(i%2===0){
+                document.write("<p style='color:green;'>"+i+"    is an even number"+"</p>")
+            }
+            
+        }
+    </script>
+</body>
+</html>
